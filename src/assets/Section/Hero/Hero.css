@@ -1,0 +1,52 @@
+.heroBody {
+  background-image: url("https://cdn.motor1.com/images/mgl/9myenm/s3/bmw-ix2-2024.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  height: 100dvh;
+  color: #fff;
+}
+.heroBody .content {
+  position: relative;
+  left: -300px;
+}
+
+.bmwInfo {
+  font-size: 1.5em;
+}
+
+.title {
+  font-size: 8rem;
+}
+
+.message {
+  font-size: 1.5rem;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn, .btn2, .btn1 {
+  width: 150px;
+  height: 60px;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+.btn:hover, .btn2:hover, .btn1:hover {
+  scale: 1.1;
+}
+
+.btn1 {
+  background-color: #0d6efd;
+}
+
+.btn2 {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+.btn2:hover {
+  border-color: #000;
+}/*# sourceMappingURL=Hero.css.map */

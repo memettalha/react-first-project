@@ -1,0 +1,29 @@
+.etiket, .footer .list .element, .footer .list .tFot {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+.etiket:hover, .footer .list .element:hover, .footer .list .tFot:hover {
+  background-color: rgb(255, 153, 0);
+  padding: 5px;
+}
+
+.footer {
+  background-color: #f6f6f6;
+  color: #4d4d4d;
+  padding: 20px 0px;
+  margin-top: 2rem;
+}
+.footer .list {
+  list-style-type: none;
+}
+.footer .list .tFot {
+  background-color: rgb(177, 176, 179);
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+.footer .list .tFot:hover {
+  color: #000;
+}
+.footer .list .element {
+  font-weight: bold;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bmwimage{
+    width: 250px;
+    height: 100px;
+    border-radius:2rem;
+    margin-top:2rem;
+}
+.bmwButton{
+    border-color: #000;
+    background-color: #fff;
+    color:#000;
+    margin-bottom: 2rem;
+    &:hover{
+        scale:1.2;
+        border-color: #000;
+    }
+}
+
+.kesfet{
+    font-size:1rem;
+}
+
+.resim{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    height:35rem;
+    margin-bottom:2rem;
+    max-width:100%;
+
+}
+.vision{
+    font-size: 1.2rem;
+}
+.content{
+    position:relative;
+    top:3rem;
+    left:-17rem;
+}
+.advantage{
+    background-image: url("../../İmages/bmw-3-serisi-katalog-g20-lci.jpg.asset.1657275438644.jpg");
+    border-radius:1rem;
+    @extend .vision;
+    @extend .resim;
+    p,h1,button{
+       @extend  .content;
+    }
+}
+
+.X{
+    background-image: url("../../İmages/BMW-X1-Brosur-U11.jpg.asset.1663184831880.jpg");
+    border-radius:1rem;
+    @extend .resim;
+    p,h1,button{
+        @extend  .content;}
+
+}
+
+.btn{
+    background-color: transparent;
+    border-color: #fff;
+    color:#fff;
+
+    &:hover{
+        scale:1.1;
+    }
+}
+
+.btnImg{
+    @extend .btn;
+}
+
+.discover{
+    background-color:brown;
+    color:#fff;
+    border-color: 1px solid #000;
+    padding: 12px 40px;
+    &:hover{
+        scale:1.1;
+        border-color: 2px solid #000;
+    }
+}
+
+.bmwWorld{
+    display:flex;
+    margin-bottom:3rem;
+    margin-top:2rem;
+    .left{
+        button{
+            @extend .discover;
+        }
+        img{
+            width:35rem;
+            border-radius:3rem;
+        }
+        .bmwTurkey{
+            color:#66666b;
+            font-weight:bold;
+            margin-top:2rem;
+        }
+    }
+    .right{
+        button{
+            @extend .discover;
+        }
+        .bmwTurkey{
+            color:#66666b;
+            font-weight:bold;
+            margin-top:2rem;
+        }
+        img{
+            width:35rem;
+            border-radius: 3rem;
+        }
+    }
+}

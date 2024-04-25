@@ -1,0 +1,31 @@
+.etiket{
+    text-decoration: none;
+    color:#4d4d4d;
+    &:hover{
+        background-color: rgb(255, 153, 0);
+        padding: 5px;
+    }
+}
+.footer{
+    background-color: #f6f6f6;
+    color:#4d4d4d;
+    padding:20px 0px;
+    margin-top: 2rem;
+    .list{
+        list-style-type: none;
+        .tFot{
+            @extend .etiket;
+            background-color: rgb(177, 176, 179);
+            font-size:1rem;
+            border-radius: 1rem;
+            &:hover{
+                color:#000;
+            }
+        }
+        .element{
+            font-weight:bold;
+            @extend .etiket;
+        }
+    }
+}
+
